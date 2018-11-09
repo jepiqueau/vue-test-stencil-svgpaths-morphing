@@ -1,31 +1,38 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <router-view></router-view>
 </template>
-
+<script>
+export default {
+  name: "app"
+};
+</script>
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+:root {
+    --chart-width: 100%;
+    --chart-height: 400px;
+    --chart-top: 0px;
+    --chart-left: 0px;
+    --chart-background-color: #ffffff;
+    --chart-axis-color: #000000;   
+    --chart-font-family: Verdana;  
+    --chart-label-font-size: 10px;
+    --chart-title-color: #000000;
+    --chart-title-font-size: 25px;
+    --chart-subtitle-color: #000000;
+    --chart-subtitle-font-size: 20px;
+    --chart-axis-title-color: #000000;
+    --chart-axis-title-font-size: 15px;
+    --chart-line-color: #4ba96e;
+    --chart-label-color:#000000;
+    --chart-tick-x-length: 5px;
+    --chart-tick-y-length: 4px;
+    --chart-grid-x: false;
+    --chart-axis-x-zero: false;
+    --chart-axis-y-zero: false;
+    --chart-axis-x-interval: 20;
+    --chart-axis-y-interval: 50;
+    --chart-animation-duration: 1s;
+    --chart-legend-font-size: 12px;
+    --chart-legend-top: true;
 }
 </style>

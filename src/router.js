@@ -12,6 +12,12 @@ export default new Router({
       component: Home
     },
     {
+      path: "/linechart/:type",
+      name: "linechart",
+      component: () =>
+        import(/* webpackChunkName: "linechart" */ "./views/LineChart.vue")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
