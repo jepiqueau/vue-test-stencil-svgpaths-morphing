@@ -248,18 +248,3 @@ export default {
   }  
 };
 </script>
-<style>
-jeep-linechart #basic {
-    --height:250px;
-    --width:70%;
-    --top:20px;
-    --left:10%;
-    --backgroundcolor: rgb(255, 234, 149);
-}
-jeep-linechart #multiple {
-    --height:350px;
-    --width:90%;
-    --top:30px;
-    --left:15px;
-}
-</style>
