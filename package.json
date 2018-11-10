@@ -1,14 +1,21 @@
 {
   "name": "vue-test-linechart",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "Vue",
+    "stencil",
+    "web component",
+    "chart",
+    "line chart"
+  ],
   "dependencies": {
-    "stencil-linechart": "^0.1.5",
+    "stencil-linechart": "^0.1.6",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
