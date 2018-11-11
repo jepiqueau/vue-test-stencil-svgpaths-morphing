@@ -15,7 +15,7 @@
     "line chart"
   ],
   "dependencies": {
-    "stencil-linechart": "^0.1.6",
+    "stencil-linechart": "^0.1.7",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -40,5 +40,4 @@
     "url": "https://github.com/jepiqueau/vue-test-stencil-line-chart/issues"
   },
   "homepage": "https://github.com/jepiqueau/vue-test-stencil-line-chart#readme"
-
 }
