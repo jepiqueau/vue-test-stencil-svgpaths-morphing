@@ -1,6 +1,6 @@
 {
   "name": "vue-test-linechart",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -29,5 +29,16 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jepiqueau/vue-test-stencil-line-chart.git"
+  },
+  "author": "Jean Pierre Quéau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jepiqueau/vue-test-stencil-line-chart/issues"
+  },
+  "homepage": "https://github.com/jepiqueau/vue-test-stencil-line-chart#readme"
+
 }
