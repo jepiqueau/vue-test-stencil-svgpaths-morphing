@@ -34,5 +34,7 @@ export default {
     --chart-animation-duration: 1s;
     --chart-legend-font-size: 12px;
     --chart-legend-top: true;
+    --chart-border-color: #000000;
+    --chart-border-width: 4;   
 }
 </style>
