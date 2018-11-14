@@ -12,10 +12,10 @@ export default new Router({
       component: Home
     },
     {
-      path: "/linechart/:type",
-      name: "linechart",
+      path: "/flipimages/:type",
+      name: "flipimages",
       component: () =>
-        import(/* webpackChunkName: "linechart" */ "./views/LineChart.vue")
+        import(/* webpackChunkName: "flipimages" */ "./views/FlipImages.vue")
     },
     {
       path: "/about",
