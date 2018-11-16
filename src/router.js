@@ -12,10 +12,10 @@ export default new Router({
       component: Home
     },
     {
-      path: "/flipimages/:type",
-      name: "flipimages",
+      path: "/svgmorphing/:type",
+      name: "svgmorphing",
       component: () =>
-        import(/* webpackChunkName: "flipimages" */ "./views/FlipImages.vue")
+        import(/* webpackChunkName: "svgmorphing" */ "./views/SvgMorphing.vue")
     },
     {
       path: "/about",

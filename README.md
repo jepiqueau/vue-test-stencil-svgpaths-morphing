@@ -1,12 +1,12 @@
-# vue-test-flipimages
-Sample project that shows an integration of [flip-images web component build with StencilJS](https://github.com/jepiqueau/stencil-flip-images) 
+# vue-test-svgpaths-morphing
+Sample project that shows an integration of [svgpaths-morphing web component build with StencilJS](https://github.com/jepiqueau/stencil-svgpaths-morphing) 
 in Vue.js App.
 
 ## Project setup
 To start a new project using Vue.js, clone this repo to a new directory:
 
 ```bash
-git clone https://github.com/jepiqueau/vue-test-stencil-flip-images.git my-app
+git clone https://github.com/jepiqueau/vue-test-stencil-svgpaths-morphing.git my-app
 cd my-app
 git remote rm origin
 ```
