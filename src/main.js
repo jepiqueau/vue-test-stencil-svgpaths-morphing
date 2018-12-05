@@ -3,9 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/dist/loader";
+import Ionic from "@ionic/vue";
 
-Vue.config.productionTip = false;
-Vue.config.ignoredElements = [/^ion-/];
+Vue.use(Ionic);
+
 Vue.config.ignoredElements = [/jeep-\w*/];
 
 svgmorphing(window);
