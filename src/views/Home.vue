@@ -11,10 +11,18 @@
     <ion-content padding>
       <p>Test Svg Morphing Web component in Vue.js</p>
       <ion-button @click="goToAbout" size="large">Go to About</ion-button>
-      <ion-button @click="goToSvgMorphing('basic')" size="large">Basic Paths</ion-button>
-      <ion-button @click="goToSvgMorphing('pathIndex')" size="large">PathIndex Control</ion-button>
-      <ion-button @click="goToSvgMorphing('fullControl')" size="large">Full Control</ion-button>
-      <ion-button @click="goToSvgMorphing('silhouette')" size="large">Silhouette</ion-button>
+      <ion-button @click="goToSvgMorphing('basic')" size="large"
+        >Basic Paths</ion-button
+      >
+      <ion-button @click="goToSvgMorphing('pathIndex')" size="large"
+        >PathIndex Control</ion-button
+      >
+      <ion-button @click="goToSvgMorphing('fullControl')" size="large"
+        >Full Control</ion-button
+      >
+      <ion-button @click="goToSvgMorphing('silhouette')" size="large"
+        >Silhouette</ion-button
+      >
     </ion-content>
   </ion-app>
 </template>
