@@ -1,5 +1,5 @@
 <template>
-  <ion-app>
+  <div class="ion-page">
     <ion-header>
       <ion-toolbar color="primary">
         <ion-title>
@@ -24,7 +24,7 @@
         >Silhouette</ion-button
       >
     </ion-content>
-  </ion-app>
+  </div>
 </template>
 <script>
 export default {

@@ -1,5 +1,5 @@
 <template>
-  <ion-app>
+  <div class="ion-page">
     <ion-header>
       <ion-toolbar color="primary">
         <ion-title>
@@ -11,7 +11,7 @@
       <p>This is the About page.</p>
       <ion-button @click="goBackHome()" full>Go Back!</ion-button>
     </ion-content>
-  </ion-app>
+  </div>
 </template>
 <script>
 export default {

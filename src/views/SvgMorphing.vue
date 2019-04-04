@@ -1,13 +1,9 @@
 <template>
-  <ion-app>
+  <div class="ion-page">
     <ion-header>
       <ion-toolbar color="primary">
         <ion-buttons slot="start">
-          <!--
-                *** does not work
-            <ion-back-button defaultHref="/"></ion-back-button>
-            -->
-          <ion-button @click="goBackHome()" size="small">Back</ion-button>
+          <ion-back-button defaultHref="/"></ion-back-button>
         </ion-buttons>
         <ion-title>SVG paths morphing</ion-title>
       </ion-toolbar>
@@ -18,9 +14,9 @@
         <p>Click on Svg</p>
         <jeep-svgmorph duration="4000ms">
           <svg
-            width="500"
-            height="500"
-            viewBox="0 0 500 500"
+            width="700"
+            height="700"
+            viewBox="0 0 700 700"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M100,100 H400 V400 H 100 V 100" fill="#1eb287"></path>
@@ -56,9 +52,9 @@
           nsegment="16"
         >
           <svg
-            width="500"
-            height="500"
-            viewBox="0 0 500 500"
+            width="700"
+            height="700"
+            viewBox="0 0 700 700"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M100,100 H400 V400 H 100 V 100" fill="#1eb287"></path>
@@ -98,9 +94,9 @@
               0.645,0.045,0.355,1;0.645,0.045,0.355,1"
         >
           <svg
-            width="500"
-            height="500"
-            viewBox="0 0 500 500"
+            width="700"
+            height="700"
+            viewBox="0 0 700 700"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M100,100 H400 V400 H 100 V 100" fill="#1eb287"></path>
@@ -140,9 +136,9 @@
           0.645,0.045,0.355,1;0.645,0.045,0.355,1"
           >
             <svg
-              width="375"
-              height="375"
-              viewBox="40 20 350 350"
+              width="500"
+              height="500"
+              viewBox="40 20 550 550"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -511,7 +507,7 @@
         </div>
       </template>
     </ion-content>
-  </ion-app>
+  </div>
 </template>
 
 <script>
@@ -521,11 +517,6 @@ export default {
     return {
       type: this.$route.params.type
     };
-  },
-  methods: {
-    goBackHome: function() {
-      this.$router.push("/");
-    }
   }
 };
 </script>
