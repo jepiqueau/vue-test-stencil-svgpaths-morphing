@@ -8,7 +8,7 @@ in Vue.js App.
 To start a new project using Vue.js, clone this repo to a new directory:
 
 ```bash
-git clone https://github.com/jepiqueau/vue-test-stencil-svgpaths-morphing.git my-app
+git clone -b ionicone https://github.com/jepiqueau/vue-test-stencil-svgpaths-morphing.git my-app
 cd my-app
 git remote rm origin
 ```
