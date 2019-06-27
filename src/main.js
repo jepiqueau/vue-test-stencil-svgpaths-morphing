@@ -3,15 +3,27 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/dist/loader";
-
-import Ionic from "@ionic/vue";
 import "@ionic/core/css/ionic.bundle.css";
 
-Vue.config.ignoredElements = [/jeep-\w*/];
+//import Ionic from "@ionic/vue"; // commented to use the workaround
+/* added as a workaround */
+import { defineCustomElements as ionic } from "@ionic/core/loader";
+import { addIcons } from "ionicons";
+import { ICON_PATHS } from "ionicons/icons";
+/* --------------------- */
 
-Vue.use(Ionic);
+//Vue.config.ignoredElements = [/jeep-\w*/]; // commented to use the workaround
+/* added as a workaround */
+Vue.config.ignoredElements = [/^ion-/, /^jeep-/];
+/* --------------------- */
+
+//Vue.use(Ionic); // commented to use the workaround
+/* added as a workaround */
+ionic(window);
+addIcons(ICON_PATHS);
+/* --------------------- */
+
 svgmorphing(window);
-
 Vue.config.productionTip = false;
 
 new Vue({
