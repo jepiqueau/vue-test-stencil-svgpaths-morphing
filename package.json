@@ -1,6 +1,6 @@
 {
   "name": "vue-test-svgpaths-morphing",
-  "version": "1.0.0-workaround",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -16,8 +16,7 @@
     "svg morphing"
   ],
   "dependencies": {
-    "@ionic/core": "one",
-    "@ionic/vue": "0.0.4",
+    "@ionic/vue": "0.0.9",
     "stencil-svgpaths-morphing": "^1.0.0-alpha.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.2",
