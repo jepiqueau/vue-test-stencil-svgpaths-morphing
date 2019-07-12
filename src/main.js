@@ -5,6 +5,9 @@ import store from "./store";
 import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/dist/loader";
 import "@ionic/core/css/ionic.bundle.css";
 
+import { addIcons } from "ionicons";
+import { star, trash, create } from "ionicons/icons";
+
 import Ionic from "@ionic/vue"; // commented to use the workaround
 /* added as a workaround */
 //import { defineCustomElements as ionic } from "@ionic/core/loader";
@@ -22,7 +25,14 @@ Vue.use(Ionic); // commented to use the workaround
 //ionic(window);
 //addIcons(ICON_PATHS);
 /* --------------------- */
-
+addIcons({
+  "ios-star": star.ios,
+  "md-star": star.md,
+  "ios-trash": trash.ios,
+  "md-trash": trash.md,
+  "ios-create": create.ios,
+  "md-create": create.md
+});
 svgmorphing(window);
 Vue.config.productionTip = false;
 

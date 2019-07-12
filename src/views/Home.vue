@@ -11,6 +11,7 @@
     <ion-content padding>
       <p>Test Svg Morphing Web component in Vue.js</p>
       <ion-button @click="goToAbout" size="large">Go to About</ion-button>
+      <ion-button @click="goToTestIcons" size="large">Test Icons</ion-button>
       <ion-button @click="goToSvgMorphing('basic')" size="large"
         >Basic Paths</ion-button
       >
@@ -35,6 +36,9 @@ export default {
     },
     goToSvgMorphing: function(type) {
       this.$router.push("svgmorphing/" + type);
+    },
+    goToTestIcons: function() {
+      this.$router.push("testicons");
     }
   }
 };
