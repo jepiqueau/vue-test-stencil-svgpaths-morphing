@@ -14,6 +14,8 @@
       <ion-icon name="star" color="secondary"></ion-icon>
       <ion-icon name="trash" color="danger"></ion-icon>
       <ion-icon name="create"></ion-icon>
+      <ion-icon name="add-circle"></ion-icon>
+      <ion-icon name="log-out" color="primary"></ion-icon>
     </ion-content>
   </div>
 </template>

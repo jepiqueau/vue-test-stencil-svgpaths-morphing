@@ -6,7 +6,7 @@ import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/d
 import "@ionic/core/css/ionic.bundle.css";
 
 import { addIcons } from "ionicons";
-import { star, trash, create } from "ionicons/icons";
+import { star, trash, create, addCircle, logOut } from "ionicons/icons";
 
 import Ionic from "@ionic/vue"; // commented to use the workaround
 /* added as a workaround */
@@ -31,7 +31,11 @@ addIcons({
   "ios-trash": trash.ios,
   "md-trash": trash.md,
   "ios-create": create.ios,
-  "md-create": create.md
+  "md-create": create.md,
+  "ios-add-circle": addCircle.ios,
+  "md-add-circle": addCircle.md,
+  "ios-log-out": logOut.ios,
+  "md-log-out": logOut.md
 });
 svgmorphing(window);
 Vue.config.productionTip = false;
