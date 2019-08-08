@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/dist/loader";
+import { defineCustomElements as svgmorphing } from "stencil-svgpaths-morphing/loader";
 import "@ionic/core/css/ionic.bundle.css";
 
 import { addIcons } from "ionicons";
