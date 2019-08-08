@@ -2,13 +2,12 @@
 Sample project that shows an integration of [svgpaths-morphing web component build with StencilJS](https://github.com/jepiqueau/stencil-svgpaths-morphing) 
 in Vue.js App.
 
-!!! WARNING use a workaround for @Ionic/core@one !!!
 
 ## Project setup
 To start a new project using Vue.js, clone this repo to a new directory:
 
 ```bash
-git clone -b ionicone https://github.com/jepiqueau/vue-test-stencil-svgpaths-morphing.git my-app
+git clone https://github.com/jepiqueau/vue-test-stencil-svgpaths-morphing.git my-app
 cd my-app
 git remote rm origin
 ```
